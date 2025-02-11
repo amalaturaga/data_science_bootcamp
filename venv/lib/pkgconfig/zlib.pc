@@ -1,0 +1,13 @@
+prefix=/Users/amalaturaga/Python Projects/venv
+exec_prefix=/Users/amalaturaga/Python Projects/venv
+libdir=/Users/amalaturaga/Python Projects/venv/lib
+sharedlibdir=/Users/amalaturaga/Python Projects/venv/lib
+includedir=/Users/amalaturaga/Python Projects/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
